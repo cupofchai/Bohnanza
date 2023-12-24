@@ -22,6 +22,8 @@ Fichiers dans le Répertoire:
 
 9. CardFactory.h, CardFactory.cpp : La classe `CardFactory` est responsable de la création d'instances de différents types de cartes.
 
+10. Hand.h, Hand.cpp : La classe 'Hand' contient les cartes de chaque joueur.
+
 
 
 Comment Jouer:
