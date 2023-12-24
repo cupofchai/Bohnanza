@@ -1,0 +1,40 @@
+Nom étudiant : Chai Ait Jabbour
+Numéro d’étudiant : 300209585
+Code du cours : CSI2772A
+
+
+Fichiers dans le Répertoire:
+
+1. main.cpp : Le point d'entrée principal du programme. Il orchestre le flux du jeu, les tours des joueurs et les interactions avec la table.
+
+2. Table.h, Table.cpp : Ces fichiers définissent la classe `Table`, qui représente la table de jeu. Elle gère les joueurs, le deck, la zone d'échange et la pile de défausse.
+
+3. Player.h, Player.cpp : La classe `Player` représente un joueur dans le jeu. Elle garde une trace du nom du joueur, de sa main, de ses chaînes et de son argent.
+
+4. Chain.h : La classe `Chain` représente la chaîne de cartes d'un joueur. Elle inclut des méthodes pour ajouter des cartes à la chaîne, vendre la chaîne et vérifier la légalité.
+
+5. Deck.h, Deck.cpp : La classe `Deck` définit le deck de cartes utilisé dans le jeu. Elle gère le tirage de cartes et le mélange.
+
+6. TradeArea.h, TradeArea.cpp : La classe `TradeArea` gère les cartes disponibles pour l'échange pendant le jeu.
+
+7. DiscardPile.h, DiscardPile.cpp : La classe `DiscardPile` représente la pile de cartes défaussées dans le jeu.
+
+8. Card.h, Card.cpp : Ces fichiers définissent la classe `Card`, qui représente des cartes individuelles, ainsi que des type de cartes spécifiques qui l'héritent. Ils contiennent aussi les classes `NotEnoughCoins` et `IllegalType`, pour gérer des erreurs spécifiques pendant le jeu.
+
+9. CardFactory.h, CardFactory.cpp : La classe `CardFactory` est responsable de la création d'instances de différents types de cartes.
+
+
+
+Comment Jouer:
+
+1. Exécutez le fishier Main.cpp.
+2. Entrez les noms des joueurs et commencez une nouvelle partie ou chargez une partie précédemment enregistrée.
+3. Les joueurs jouent à tour de rôle en piochant des cartes, en échangeant dans la zone d'échange et en construisant des chaînes.
+4. Le jeu se termine lorsque le deck est vide, et le joueur avec le plus d'argent gagne.
+
+Enregistrement et Chargement:
+
+- Pour sauvegarder le jeu pendant votre tour, tapez 'y' lorsque vous y êtes invité. Entrez un nom de fichier pour sauvegarder l'état du jeu.
+- Pour charger un jeu enregistré, tapez 'y' lorsque vous êtes invité à reprendre une partie précédente. Entrez le nom du fichier lorsqu'on vous le demande.
+
+Merci pour votre temps :)
